@@ -51,8 +51,9 @@ def count_requests(method: Callable) -> Callable:
 @count_requests
 def get_page(url: str) -> str:
     """ Obtain the HTML content of a URL.
+
     Args:
-        url (str): The URL for which to obtain the HTML content.
+        url (str): The URL for which to obtain the HTML contentself.
 
     Returns:
         str: The HTML content of the URL.
